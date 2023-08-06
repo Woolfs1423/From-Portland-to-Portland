@@ -1,0 +1,49 @@
+/**320px**/
+.page{
+    margin: 0;
+    padding: 0;
+    background-color:#2A2C2F;
+
+}
+/**header**/
+.header{
+    color: #fff;
+    width: 320px; 
+    position: relative;
+}
+.logo{
+    width: 288px;
+    height: 36px; 
+    padding: 20px 16px 0 16px;    
+}
+.logo__image{
+    
+    height: 36px; 
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+.logo__link{
+    display: inline-block;
+
+}
+.logo__lang-link{
+    display: inline-block;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    position: absolute;
+    top: 30px;
+    left: 243px;
+}
+.logo__lang-link:last-child{
+    top: 30px;
+    left:283px;
+}
+/****/
+/**768px**/
+/**1024px**/
+/**1280px**/
