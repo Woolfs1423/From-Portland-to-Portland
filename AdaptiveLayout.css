@@ -1,13 +1,13 @@
-/**320px**/
 .page{
     margin: 0;
     padding: 0;
     background-color:#2A2C2F;
-
+    color: #fff;
 }
+/**320px**/
 /**header**/
 .header{
-    color: #fff;
+    
     width: 320px; 
     position: relative;
 }
@@ -43,7 +43,41 @@
     top: 30px;
     left:283px;
 }
-/****/
+/**lead**/
+
+.lead__title{
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px;
+    margin-top: 50px;
+    margin-bottom:0 ;
+    padding: 0;
+}
+.lead__subtitle{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    padding: 0;
+
+}
+.lead__caption{color: #FFF;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+}
 /**768px**/
 /**1024px**/
 /**1280px**/
