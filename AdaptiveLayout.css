@@ -6,8 +6,7 @@
 }
 /**320px**/
 /**header**/
-.header{
-    
+.header{    
     width: 320px; 
     position: relative;
 }
@@ -22,6 +21,7 @@
     position: absolute;
     top: 20px;
     left: 16px;
+    
 }
 .logo__link{
     display: inline-block;
@@ -54,6 +54,11 @@
     margin-top: 50px;
     margin-bottom:0 ;
     padding: 0;
+
+    width: 288px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .lead__subtitle{
     color: #FFF;
@@ -66,7 +71,10 @@
     margin-top: 16px;
     margin-bottom: 40px;
     padding: 0;
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 288px;
 }
 .lead__caption{
     color: #FFF;
@@ -77,6 +85,14 @@
     line-height: 14px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    margin-left: 16px; ;
+}
+.lead__image{
+    width: 320px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /**intro**/
 .intro{
@@ -139,15 +155,16 @@
 .photo-grid__item{
     width: 288px;
     height: 216px;
-    margin:12px 16px 0 16px ;
+    margin-top:12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .photo-grid__item:first-child{
     margin-top: 64px;
 }
 /**place**/
-.place{
 
-}
 .place__title{
     font-family: Inter;
     font-size: 32px;
@@ -155,7 +172,10 @@
     font-weight: 900;
     line-height: 35px;
     width: 288px;
-    margin: 0 16px;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px;
 }
 .place__url-heading{
@@ -167,7 +187,9 @@
     line-height: 12px;
     letter-spacing: 2.4px;
     width: 288px;
-    margin: 0 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 12px;
 }
 .place__link{
@@ -179,7 +201,9 @@
     line-height: 22px;
     text-decoration-line: underline;
     width: 288px;
-    margin: 0 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .place__paragraph{
@@ -190,7 +214,9 @@
     font-weight: 400;
     line-height: 163%;
     width: 288px;
-    margin: 0 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 25px;
 }
 .place__paragraph:first-child{
@@ -200,6 +226,9 @@
     width: 320px;
     height: 320px;
     margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }  
 /**768px**/
 
