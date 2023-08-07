@@ -443,34 +443,38 @@
         margin-bottom: 16px;
     }
     /**place**/
+    .places{
+        margin: 0 24px;
+    }
+    .place{
+        margin-top: 72px;
+    }
     .place__title {
+        color: #FFF;
         font-family: Inter;
-        font-size: 32px;
+        font-size: 42px;
         font-style: normal;
         font-weight: 900;
-        line-height: 35px;
-        width: 288px;
-        margin: 0;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 30px;
+        line-height: 46px;
+        float: left;
+        width: 340px;
+        margin-bottom: 0;
     }
-    .place__url-heading {
+    .place__website{
+        float: right;
+    }    
+    .website__url-heading {
         color: #AAA;
         font-family: Inter;
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: 12px;
-        letter-spacing: 2.4px;
-        width: 288px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 12px;
-    }
-    .place__link {
+        letter-spacing: 2.4px;        
+        width: 352px;   
+        margin-top: 0;        
+    }   
+    .website__link {
         color: #FFF;
         font-family: Inter;
         font-size: 18px;
@@ -478,11 +482,7 @@
         font-weight: 400;
         line-height: 22px;
         text-decoration-line: underline;
-        width: 288px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-
+        width: 352px;
     }
     .place__paragraph {
         color: #FFF;
@@ -491,56 +491,55 @@
         font-style: normal;
         font-weight: 400;
         line-height: 163%;
-        width: 288px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 25px;
-    }
-    .place__paragraph:first-child {
-        margin-top: 32px;
-    }
+        width: 352px;
+        float: right;
+       
+    }    
     .place__image {
-        width: 320px;
-        height: 320px;
-        margin-top: 30px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        width: 340px;
+        height: 340px;
+        flex-shrink: 0;
+        margin: 0;
+        margin-top: 48px;
+        float: left; 
     }
     /**cover**/
     .cover {
-        background-image: url(images/__background.png);
-        width: 320px;
-        height: 200px;
+        background: url(images/__background\(1\).png), lightgray 50% / cover no-repeat;
+        background-repeat: no-repeat;
+        width: 768px;
+        height: 480px;
         margin: 0 auto;
-        margin-bottom: 64px;
+        margin-bottom: 88px;
+        clear: both;
+        margin-top: 89px;
     }
     .cover__title {
         text-align: center;
-        font-family: Inter;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 35px;
-        padding-top: 51px;
-        display: block;
-        margin: 0 auto;
-        width: 288px;
-    }
-    .cover__subtitle {
-        width: 288px;
+        color: #FFFDFD;
         text-align: center;
         font-family: Inter;
-        font-size: 14px;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 76px;
+        
+        display: block;
+        margin: 0 auto;
+        padding-top: 153px;
+        width: 656px;
+    }
+    .cover__subtitle {
+        width: 320px;
+        text-align: center;
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
-        line-height: 16px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 16px;
-        margin-bottom: 0;
+        line-height: 22px;
+        margin-top: 32px;
     }
     /**footer**/
     .footer__link {
@@ -548,29 +547,32 @@
         margin: 0;
         margin-left: 16px;
         padding: 0;
+        float: left;
     }
     .footer__links {
-        display: block;
-        margin-top: 32px;
+        color: #FFF;
+        text-align: center;
         font-family: Inter;
-        font-size: 24px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px;
-        text-decoration: none;
-        color: #FFF;
+        margin: 0;
+        line-height: 22px;
+        margin-right: 18px;
+        display: inline-block;
+
     }
-    .footer__links:first-child {
-        margin-top: 0;
+    .footer__links:last-child{
+        margin-right: 0;
     }
     .footer__copyright {
-        margin-left: 16px;
-        margin-top: 48px;
+        float: right;
         font-family: Inter;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: 14px;
+        margin: 0;
     }
 }
 /**1024px**/
