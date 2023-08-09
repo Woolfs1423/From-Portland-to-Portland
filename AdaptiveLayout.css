@@ -996,13 +996,11 @@
         font-style: normal;
         font-weight: 400;
         line-height: 163%;
-        /* 26.08px */
         margin: 0;
         padding: 0;
         margin-top: 32px;
         margin-bottom: 34px;
     }
-
     .intro__list {
         margin: 0;
         list-style: none;
@@ -1014,7 +1012,6 @@
         font-weight: 700;
         line-height: 18px;
     }
-
     .intro__list-decor {
         color: #FFF;
         font-family: Inter;
@@ -1026,42 +1023,34 @@
 
     /**photo grid**/
     .photo-grid {
+     
         display: grid;
-        grid-template-columns: 300px 300px 300px;
-        margin-top: 92px;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-    }
-
-    .photo-grid__item {
-        margin-bottom: 14px;
+        grid-template-columns: 284px 284px 284px 284px;
+        grid-column-gap: 16px;
+        grid-row-gap: 16px;
+        margin-top: 92px;  
     }
 
     /**place**/
     .places {
         margin: 0 auto;
     }
-
     .place {
-        margin-top: 80px;
-        width: 928px;
+        width: 984px;
         margin: 0 auto;
-        margin-top: 80px;
+        margin-top: 81px;
     }
-
     .place__title {
         color: #FFF;
         font-family: Inter;
         font-size: 72px;
         font-style: normal;
         font-weight: 900;
-        line-height: 76px;
+        line-height: 76px;            
         float: left;
-        width: 440px;
+        width: 460px;
         margin-bottom: 0;
     }
-
     .place__website {
         float: right;
         display: block;
@@ -1069,7 +1058,6 @@
         margin-right: auto;
         width: 456px;
     }
-
     .website__url-heading {
         color: #AAA;
         font-family: Inter;
@@ -1077,10 +1065,10 @@
         font-style: normal;
         font-weight: 400;
         line-height: 170%;
+        /* 20.4px */
         letter-spacing: 2.4px;
         margin-top: 0;
     }
-
     .website__link {
         color: #FFF;
         font-family: Inter;
@@ -1089,15 +1077,12 @@
         font-weight: 400;
         line-height: 22px;
         text-decoration-line: underline;
-
     }
-
     .place__text {
-        width: 456px;
+        width: 484px;
         float: right;
         margin-top: 48px;
     }
-
     .text__paragraph {
         color: #FFF;
         font-family: Inter;
@@ -1105,19 +1090,15 @@
         font-style: normal;
         font-weight: 400;
         line-height: 163%;
-        width: 456px;
         margin: 0;
         margin-top: 25px;
     }
-
     .text__paragraph:first-child {
         margin: 0;
     }
-
     .place__image {
-        width: 440px;
-        height: 440px;
-        flex-shrink: 0;
+        width: 460px;
+        height: 460px;
         margin: 0;
         margin-top: 48px;
         float: left;
@@ -1125,17 +1106,14 @@
 
     /**cover**/
     .cover {
-        background: url("images/__background\(1\).png"), lightgray 50% / cover no-repeat;
-        ;
-        background-repeat: no-repeat;
-        width: 1024px;
-        height: 640px;
+        background: url("images/__background\(1\).png"), lightgray 50% / cover, no-repeat;
+        width: 1084px;
+        height: 740px;
         margin: 0 auto;
-        margin-bottom: 88px;
+        margin-bottom: 134px;
         clear: both;
-        margin-top: 89px;
+        margin-top: 92px;
     }
-
     .cover__title {
         color: #FFFDFD;
         text-align: center;
@@ -1144,12 +1122,12 @@
         font-style: normal;
         font-weight: 900;
         line-height: 76px;
+
         display: block;
         margin: 0 auto;
-        padding-top: 233px;
-        width: 1024px;
+        padding-top: 283px;
+        width: 656px;
     }
-
     .cover__subtitle {
         width: 320px;
         color: #FFF;
@@ -1159,10 +1137,15 @@
         font-style: normal;
         font-weight: 400;
         line-height: 22px;
+        /* 122.222% */
         margin-top: 32px;
     }
 
     /**footer**/
+    .footer{
+        display: block;
+        margin: 0 48px;
+    }
     .footer__link {
         list-style: none;
         margin: 0;
@@ -1170,7 +1153,6 @@
         padding: 0;
         float: left;
     }
-
     .footer__links {
         color: #FFF;
         font-family: Inter;
@@ -1180,13 +1162,10 @@
         line-height: 18px;
         margin-right: 18px;
         display: inline-block;
-
     }
-
     .footer__links:last-child {
         margin-right: 0;
     }
-
     .footer__copyright {
         float: right;
         color: #FFF;
