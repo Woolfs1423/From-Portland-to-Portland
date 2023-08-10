@@ -14,29 +14,30 @@
 }
 .logo{
     width: 288px;
-    height: 36px; 
-   
+    height: 36px;    
 }
 .logo__image{    
     height: 36px; 
     float: left;    
 }
 .logo__link{
-    display: inline-block;
-    
+    display: inline-block;    
 }
 .logo__lang-link{
+    float: right; 
     display: inline-block;
     color: #FFF;
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;    
-    float: right;
+    line-height: 20px;   
+    margin-top: 10px;    
 }
+
 .logo__lang-link:last-child{
     padding-right: 18px;
+    text-decoration: underline;
 }
 /**lead**/
 .lead {
@@ -153,11 +154,10 @@
 }
 /**photo grid**/
 .photo-grid__item{
-        display: grid;
-        grid-template-columns: 288px;
-        margin-left: auto;
-        margin-right: auto;
-     
+    display: grid;
+    grid-template-columns: 288px;
+    margin-left: auto;
+    margin-right: auto;
         
 }
 .photo-grid__item{
@@ -480,7 +480,7 @@
     .place__website{
         float: right;
         width: 352px;
-        margin-right: -24px;
+       
     }    
     .website__url-heading {
         color: #AAA;
@@ -491,7 +491,8 @@
         line-height: 12px;
         letter-spacing: 2.4px;        
         width: 352px;   
-        margin-top: 0;        
+        margin-top: 0;  
+        float: right;      
     }   
     .website__link {
         color: #FFF;
@@ -514,6 +515,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 163%;
+        width: 352px;
     }    
     .place__image {
         width: 340px;
@@ -525,8 +527,7 @@
     }
     /**cover**/
     .cover {
-        background: url("images/__background\(1\).png"), lightgray 50% / cover no-repeat;
-        background-repeat: no-repeat;
+        background: url("images/__background\(1\).png") lightgray 50% / cover no-repeat;      
         width: 768px;
         height: 480px;
         margin: 0 auto;
@@ -742,10 +743,10 @@
         margin: 0 auto;
     }
     .place {
-        margin-top: 80px;
+        
         width: 928px;
         margin: 0 auto;
-        margin-top: 80px;
+        margin-top: 0px;
     }
     .place__title {
         color: #FFF;
@@ -757,13 +758,15 @@
         float: left;
         width: 440px;
         margin-bottom: 0;
+        margin-top: 80px;
     }
     .place__website {
         float: right;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 456px;    
+        width: 456px; 
+        margin-top: 110px ;   
     }
     .website__url-heading {
         color: #AAA;
@@ -774,6 +777,8 @@
         line-height: 170%;
         letter-spacing: 2.4px;
         margin-top: 0;
+        width: 456px;
+        margin-bottom: 12px;
     }
     .website__link {
         color: #FFF;
@@ -814,8 +819,7 @@
     }
     /**cover**/
     .cover {
-        background: url("images/__background\(1\).png"), lightgray 50% / cover no-repeat;;
-        background-repeat: no-repeat;
+        background: url("images/__background\(1\).png") lightgray 50% / cover no-repeat;     
         width: 1024px;
         height: 640px;
         margin: 0 auto;
@@ -848,12 +852,18 @@
         margin-top: 32px;
     }
     /**footer**/
+    .footer {
+        display: block;
+        margin: 0 48px;
+        margin-bottom: 24px;
+    }
     .footer__link {
         list-style: none;
         margin: 0;
         margin-left: 16px;
         padding: 0;
         float: left;
+        margin-bottom: 24px;
     }
     .footer__links {
         color: #FFF;
@@ -879,6 +889,7 @@
         font-weight: 400;
         line-height: 16px;
         margin: 0;
+        margin-bottom: 24px;
     }
 }
 /**1280px**/
@@ -1145,6 +1156,7 @@
     .footer{
         display: block;
         margin: 0 48px;
+        margin-bottom: 24px;
     }
     .footer__link {
         list-style: none;
@@ -1152,6 +1164,7 @@
         margin-left: 16px;
         padding: 0;
         float: left;
+        margin-bottom: 24px;
     }
     .footer__links {
         color: #FFF;
@@ -1176,5 +1189,6 @@
         font-weight: 400;
         line-height: 16px;
         margin: 0;
+        margin-bottom: 24px;
     }
 }
