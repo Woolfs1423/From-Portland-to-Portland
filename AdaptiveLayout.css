@@ -211,6 +211,9 @@
     margin-right: auto;
     
 }
+.place__link:hover {
+    opacity: 0.8;    
+}
 .text__paragraph{
     color: #FFF;
     font-family: Inter;
@@ -264,6 +267,16 @@
     height: 200px;
     margin: 0 auto;
     margin-bottom: 64px;
+}
+.cover{
+    width: 320px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+.cover:hover{
+    opacity: 0.8;    
+    
 }
 .cover__title{
     text-align: center;
@@ -920,7 +933,6 @@
         font-weight: 400;
         line-height: 28px;
     }
-
     /**lead**/
     .lead {
         display: block;
@@ -976,7 +988,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-
     /**intro**/
     .intro {
         width: 690px;
@@ -1148,7 +1159,6 @@
         font-style: normal;
         font-weight: 400;
         line-height: 22px;
-        /* 122.222% */
         margin-top: 32px;
     }
 
