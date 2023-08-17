@@ -1,0 +1,32 @@
+.place__website {
+    width: 288px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+@media screen and (min-width: 768px) {
+    .place__website{
+            float: right;
+            width: 352px;
+           
+        }
+}
+@media screen and (min-width: 1024px) {
+    .place__website {
+            float: right;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 456px; 
+            margin-top: 110px ;   
+        }
+}
+@media screen and (min-width: 1280px) {
+    .place__website {
+            float: right;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 456px;
+        }
+}

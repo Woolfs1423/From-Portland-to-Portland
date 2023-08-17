@@ -1,0 +1,15 @@
+@media screen and (min-width: 768px) {
+    .places{
+            margin: 0 24px;
+        }
+}
+@media screen and (min-width: 1024px) {
+    .places {
+            margin: 0 auto;
+        }
+}
+@media screen and (min-width: 1280px) {
+    .places {
+            margin: 0 auto;
+        }
+}

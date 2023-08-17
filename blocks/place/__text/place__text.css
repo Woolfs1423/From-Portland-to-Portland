@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) {
+    .place__text {
+            width: 352px;
+            float: right;
+        }
+}
+@media screen and (min-width: 1024px) {
+    .place__text{
+            width: 456px;
+            float: right;
+            margin-top: 48px;
+        }
+}
+@media screen and (min-width: 1280px) {
+    .place__text {
+            width: 484px;
+            float: right;
+            margin-top: 48px;
+        }
+}

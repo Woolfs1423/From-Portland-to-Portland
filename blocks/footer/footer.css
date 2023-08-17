@@ -1,0 +1,14 @@
+@media screen and (min-width: 1024px) {
+    .footer {
+            display: block;
+            margin: 0 48px;
+            margin-bottom: 24px;
+        }
+}
+@media screen and (min-width: 1280px) {
+    .footer{
+            display: block;
+            margin: 0 48px;
+            margin-bottom: 24px;
+        }
+}

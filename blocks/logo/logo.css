@@ -1,0 +1,28 @@
+.logo{
+    width: 288px;
+    height: 36px;    
+}
+@media screen and (min-width: 768px) {
+    .logo {
+            width: 720px;
+            height: 44px;       
+            margin-top: 34px;   
+        }
+}
+@media screen and (min-width: 1024px) {
+    .logo {
+            width: 928px;
+            height: 44px;
+            display: block;
+            margin-top: 34px;
+        }
+}
+@media screen and (min-width: 1280px) {
+    .logo {
+            width: 984px;
+            height: 44px;
+            display: block;
+            margin: 0;
+            margin-top: 34px;
+        }
+}

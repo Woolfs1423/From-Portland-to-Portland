@@ -1,0 +1,21 @@
+.lead {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 1024px) {
+    .lead{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 928px;
+        }
+}
+@media screen and (min-width: 1280px) {
+    .lead {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 984px;
+        }
+}

@@ -1,0 +1,38 @@
+.intro__list-decor{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+@media screen and (min-width: 768px) {
+    .intro__list-decor {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+        }
+}
+@media screen and (min-width: 1024px) {
+    .intro__list-decor {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+        }
+}
+@media screen and (min-width: 1280px) {
+    .intro__list-decor {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+        }
+}

@@ -1,0 +1,34 @@
+.lead__image{
+    width: 320px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+    .lead__image {
+            width: 768px;
+            height: 480px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+}
+@media screen and (min-width: 1024px) {
+    .lead__image {
+            width: 928px;
+            height: 580px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+}
+@media screen and (min-width: 1280px) {
+    .lead__image {
+            width: 984px;
+            height: 615px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+}

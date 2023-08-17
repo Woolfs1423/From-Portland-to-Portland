@@ -1,0 +1,57 @@
+.intro__text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 163%;
+    margin: 0;
+    padding: 0;
+    margin-top: 32px;
+    margin-bottom: 34px;
+}
+@media screen and (min-width: 768px) {
+    .intro__text {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 163%;
+            
+            margin: 0;
+            padding: 0;
+            margin-top: 32px;
+            margin-bottom: 34px;
+        }
+}
+@media screen and (min-width: 1024px) {
+    .intro__text {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 163%;
+            margin: 0;
+            padding: 0;
+            margin-top: 32px;
+            margin-bottom: 34px;
+            width: 690px;
+        }
+}
+@media screen and (min-width: 1280px) {
+    .intro__text {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 163%;
+            margin: 0;
+            padding: 0;
+            margin-top: 32px;
+            margin-bottom: 34px;
+            width: 690px;
+        }
+}

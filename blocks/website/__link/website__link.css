@@ -1,0 +1,46 @@
+.website__link {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration-line: underline;
+    text-decoration-line: underline;
+    width: 288px;
+}
+@media screen and (min-width: 768px) {
+    .website__link {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            text-decoration-line: underline;
+            width: 352px;
+        }
+}
+@media screen and (min-width: 1024px) {
+    .website__link {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            text-decoration-line: underline;
+           
+        }
+}
+@media screen and (min-width: 1280px) {
+    .website__link {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            text-decoration-line: underline;
+        }
+}
